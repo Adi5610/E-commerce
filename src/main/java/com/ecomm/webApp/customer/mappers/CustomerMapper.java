@@ -1,7 +1,7 @@
-package com.ecomm.customer.mappers;
+package com.ecomm.webApp.customer.mappers;
 
-import com.ecomm.customer.Models.Customer;
-import com.ecomm.customer.dto.CustomerDto;
+import com.ecomm.webApp.customer.Models.Customer;
+import com.ecomm.webApp.customer.dto.CustomerDto;
 import org.springframework.stereotype.Service;
 
 @Service

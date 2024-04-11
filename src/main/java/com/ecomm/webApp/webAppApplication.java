@@ -1,13 +1,13 @@
-package com.ecomm.customer;
+package com.ecomm.webApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerApplication {
+public class webAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustomerApplication.class, args);
+		SpringApplication.run(webAppApplication.class, args);
 	}
 
 }

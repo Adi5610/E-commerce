@@ -1,4 +1,4 @@
-package com.ecomm.customer;
+package com.ecomm.webApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

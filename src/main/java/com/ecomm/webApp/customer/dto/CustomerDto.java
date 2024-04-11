@@ -1,4 +1,4 @@
-package com.ecomm.customer.dto;
+package com.ecomm.webApp.customer.dto;
 
 public record CustomerDto(
         String firstName,
