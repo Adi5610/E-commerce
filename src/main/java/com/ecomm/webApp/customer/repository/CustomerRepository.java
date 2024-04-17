@@ -1,7 +1,7 @@
 package com.ecomm.webApp.customer.repository;
 
 import com.ecomm.webApp.customer.Models.Customer;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface CustomerRepository extends JpaRepository<Customer, Integer> {
+public interface CustomerRepository extends MongoRepository<Customer, Integer> {
 }

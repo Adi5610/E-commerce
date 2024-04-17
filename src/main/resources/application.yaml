@@ -1,17 +1,8 @@
 spring:
   application:
     name: customer
-  datasource:
-    url: jdbc:postgresql://localhost:5432/e_comm
-    username: postgres
-    password: 5610
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  data:
+    mongodb:
+      uri: "mongodb+srv://adi:5610@cluster0.kqxd8ys.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      database: WebApp
+

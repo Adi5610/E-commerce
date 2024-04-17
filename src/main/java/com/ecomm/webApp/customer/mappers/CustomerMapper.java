@@ -10,6 +10,7 @@ public class CustomerMapper {
         public Customer mapCustomerDtoToCustomer(CustomerDto dto){
 
                 Customer customer = new Customer();
+
                 customer.setCustomer_firstName(dto.firstName());
                 customer.setCustomer_lastName(dto.lastName());
                 customer.setCustomer_address(dto.address());

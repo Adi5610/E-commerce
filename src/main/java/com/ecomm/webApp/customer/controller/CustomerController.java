@@ -15,7 +15,7 @@ public class CustomerController {
         this.service = service;
     }
 
-    @PostMapping("/customer")
+    @PostMapping("/customers")
     public Customer createCustomer(
             @RequestBody CustomerDto dto){
 

@@ -1,15 +1,10 @@
 package com.ecomm.webApp.customer.Models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
+@Document(collection = "Customer")
 public class Customer {
-
-    @Id
-    @GeneratedValue
-    private Integer customer_Id;
 
     private String customer_firstName;
     private String customer_lastName;
@@ -26,10 +21,16 @@ public class Customer {
         this.customer_address = customer_address;
         this.customer_email = customer_email;
     }
-
-    public Integer getCustomer_Id() {
-        return customer_Id;
+/*
+    public Integer getId() {
+        return id;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+   */
 
     public String getCustomer_firstName() {
         return customer_firstName;
